@@ -14,7 +14,7 @@ The puzzle's objective is to paint all empty cells with the correct color withou
 
 ## Solution
 
-The solution to this problem was implemented using *Backtracking*. The following considerations were taken for the variables and their domains: 
+The solution to this problem was implemented using *Backtracking* and can be found in the `src/0hn0/` directory. The following considerations were taken for the variables and their domains: 
 * The color of each cell of the board is a variable.
 * Each assigned variable can have a blue or red color. 
 
