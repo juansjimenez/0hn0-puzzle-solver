@@ -12,9 +12,14 @@ The puzzle's objective is to paint all empty cells with the correct color withou
   <img width="80%" src=https://github.com/juansjimenez/0hn0-puzzle-solver/blob/main/img/0hn0_example.PNG>
 </p> </br>
 
-
-
 ## Solution
+
+The solution to this problem was implemented using *Backtracking*. The following considerations were taken for the variables and their domains: 
+* The color of each cell of the board is a variable.
+* Each assigned variable can have a blue or red color. </br> </br>
+The restrictions considered were the following: 
+* All cells must have a color assigned.
+* All blue cells must see a number of blue cells equal to their `grade`.
 
 ## Input
 
