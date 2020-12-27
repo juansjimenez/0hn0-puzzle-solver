@@ -35,9 +35,9 @@ The input must be structured as follows:
 The input for the example board shown in the pictures would be the following: </br>
 <pre>
 4 
-0  0  1 0 
-0  4  0 3 
-2  0  2 0
+0  0  1  0 
+0  4  0  3 
+2  0  2  0
 </pre>
 
 ## Output
