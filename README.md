@@ -9,9 +9,7 @@ At the beginning of the game, some cells are already painted. Blue cells contain
 The puzzle's objective is to paint all empty cells with the correct color without violating any of the previously mentioned restrictions. All initially painted cells are fixed in place and can't change their color or `grade`.
 
 <p align="center">
-  <img width="33%" src=https://github.com/juansjimenez/hash-table-problem/blob/main/img/tree_example.PNG>
-  <img width="33%" src=https://github.com/juansjimenez/hash-table-problem/blob/main/img/tree_example.PNG>
-  <img width="33%" src=https://github.com/juansjimenez/hash-table-problem/blob/main/img/tree_example.PNG>
+  <img width="80%" src=https://github.com/juansjimenez/0hn0-puzzle-solver/blob/main/img/0hn0_example.PNG>
 </p> </br>
 
 
