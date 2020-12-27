@@ -34,17 +34,21 @@ The input must be structured as follows:
 
 The input for the example board shown in the pictures would be the following: </br>
 4 </br>
+<pre>
 0  0  1 0 </br>
 0  4  0 3 </br>
 2  0  2 0
+</pre>
 
 ## Output
 
 Represents the final state of the board (meeting all restrictions). A valid output for the previous example input would be: </br>
+<pre>
 -1  -1   1  -1 </br>
 -1   4   3   3 </br>
 -1   2  -1   1 </br>
  4   4   2  -1
+ </pre>
 
 
 
