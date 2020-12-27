@@ -57,7 +57,6 @@ make
 The binary can be then executed by running
 ```
 ./0hn0 input ouput
-
 ```
 * `input` corresponds to the `.txt` file which contains the previously mentioned input format.
 * `output` corresponds to the `.txt` file in which the output will be printed.
