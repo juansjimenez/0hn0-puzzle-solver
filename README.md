@@ -20,15 +20,39 @@ The solution to this problem was implemented using *Backtracking*. The following
 
 </br> 
 
-The restrictions considered were the following: 
+The considered restrictions were the following: 
 * All cells must have a color assigned.
 * All blue cells must be able to see a number of blue cells equal to their `grade`.
 
 ## Input
 
+The input must be structured as follows:
+* A line that describes the height and width `n` of the board.
+* `n` lines that describe the initial state of each row of the board, where -1 indicates that a cell red and 0 indicates that a cell is empty. Any other positive value `β` represents a blue cell with `grade` `β`. 
+
+</br>
+
+The input for the example board shown in the pictures would be the following:
+4 </br>
+0 0 1 0 </br>
+0 4 0 3 </br>
+2 0 2 0
+
 ## Output
 
 ## Execution
+
+The execution depends on a binary called `0hn0` which needs to be compiled by running
+```
+make
+```
+The binary can be then executed by running
+```
+./0hn0 input ouput
+
+```
+* `input` corresponds to the `.txt` file which contains the previously mentioned input format.
+* `output` corresponds to the `.txt` file in which the output will be printed.
 
 ## License
 
