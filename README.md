@@ -16,7 +16,10 @@ The puzzle's objective is to paint all empty cells with the correct color withou
 
 The solution to this problem was implemented using *Backtracking*. The following considerations were taken for the variables and their domains: 
 * The color of each cell of the board is a variable.
-* Each assigned variable can have a blue or red color. </br> 
+* Each assigned variable can have a blue or red color. 
+
+</br> 
+
 The restrictions considered were the following: 
 * All cells must have a color assigned.
 * All blue cells must be able to see a number of blue cells equal to their `grade`.
